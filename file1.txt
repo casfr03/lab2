@@ -1,1 +1,109 @@
-fizz buzz
+ history
+   1  mkdir deleteme
+   2  cd deleteme
+   3  git init
+   4  touch file1.txt
+   5  touch file2.txt
+   6  touch file3.txt
+   7  git status
+   8  git add .
+   9  git status
+  10  git config -m "first commit"
+  11  git commit -m "first commit"
+  12  git config --global user.email "casfr03@ca.com"
+  13  git config --global user.name "Frances Casey"
+  14  atom ~/.gitconfig
+  15  git commit -m "first commit"
+  16  git checkout -b working
+  17  rm *
+  18  ls
+  19  git status
+  20  git add .
+  21  git status
+  22  git add -A .
+  23  git status
+  24  git commit -m "deleted files"
+  25  ls
+  26  git checkout master
+  27  ls
+  28  git checkout working
+  29  ls
+  30  git log
+  31  git log --oneline
+  32  git checkout master
+  33  git log --oneline
+  34  git log
+  35  cd ..
+  36  git clone https://github.com/trayburn/gitlabs
+  37  cd gitlabs
+  38  ls
+  39  . setup.sh
+  40  atom .
+  41  atom .
+  42  . lab2.sh
+  43  git lga
+  44  git c working
+  45  ls
+  46  git merge feature
+  47  git status
+  48  git mergetool
+  49  git status
+  50  git commit -am "merge from feature"
+  51  git status
+  52  git lga
+  53  git lga
+  54  git branch -D feature
+  55  git lga
+  56  rm Delete\*.*
+  57  rm Delete
+  58  git checkout a4897a5
+  59  git lga
+  60  git checkout d989
+  61  git lga
+  62  git checkout -b feature
+  63  git lga
+  64  git c master
+  65  git reflog
+  66       . lab2.sh
+  67  cd ..
+  68  ls
+  69  lab2.sh
+  70  ls
+  71  ls
+  72  cd lab2
+  73  ls
+  74  git branch
+  75  git remote add origin https://github.com/casfr03/lab.git
+  76  git push u origin master
+  77  git remote add origin https://github.com/casfr03/lab2.git
+  78  git push -u origin master
+  79  git remote rm origin
+  80  git remote add origin https://github.com/casfr03/lab2.git
+  81  git push -u origin master
+  82  cd working
+  83  config -b working
+  84  git config -b working
+  85  git commit -b working
+  86  git checkout -b working
+  87  git commit -b working
+  88  git commit working
+  89  git branch
+  90  git commit working
+  91  git checkout working
+  92  git push -u origin working
+  93  cd ..
+  94  cd ..
+  95  git clone https://github.com/casfr03/lab2.git
+  96  git branch
+  97  cd lab2
+  98  git branch
+  99  git lga
+ 100  git checkout working
+ 101  git lga
+ 102  history
+ 103  cd lab1
+ 104  ls
+ 105  cd ..
+ 106  cd gitlabs
+ 107  cd lab2
+ 108  historyfizz buzz
