@@ -8,7 +8,7 @@
    7  git status
    8  git add .
    9  git status
-  10  git config -m "first commit"
+  10  git config -m "first commit" --------------> XXX
   11  git commit -m "first commit"
   12  git config --global user.email "casfr03@ca.com"
   13  git config --global user.name "Frances Casey"
